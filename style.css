@@ -3,7 +3,7 @@
 body{
     padding: 100px;
     background-color: white;
-    background-image: url(aset/bg.jpg);
+    background-image: url(bg.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position:0%;
@@ -30,7 +30,7 @@ li{
 }
 
 .img{
-    background-image: url(aset/image.jpg);
+    background-image: url(image.jpg);
     background-color: #eaeaea;
     background-size: cover;
     border-radius: 100px;
