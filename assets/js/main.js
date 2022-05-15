@@ -24,23 +24,23 @@ modalclose.forEach((mc) =>{
 })
 
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
-var mixer = mixitup('.work-container', {
+var mixer = mixitup('.article-container', {
     selectors: {
-        target: '.work-card'
+        target: '.article-card'
     },
     animation: {
         duration: 300
     }
 });
 
-/* Link active work */ 
-const linkwork = document.querySelectorAll('.work-item')
+/* Link active article */ 
+const linkarticle = document.querySelectorAll('.article-item')
 
-function activework(){
-    linkwork.forEach(l => l.classList.remove('active-work'))
-    this.classList.add('active-work')
+function activearticle(){
+    linkarticle.forEach(l => l.classList.remove('active-article'))
+    this.classList.add('active-article')
 }
-linkwork.forEach(l=> l.addEventListener('click', activework))
+linkarticle.forEach(l=> l.addEventListener('click', activearticle))
 
 
 

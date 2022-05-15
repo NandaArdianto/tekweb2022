@@ -563,11 +563,11 @@ transform: translateX(.25rem);
 }
 
 /*=============== WORK ===============*/
-.work-container{
+.article-container{
   padding-top: 1rem;
 }
 
-.work-filter{
+.article-filter{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -575,7 +575,7 @@ transform: translateX(.25rem);
   margin-bottom: 2rem;
 }
 
-.work-item{
+.article-item{
   cursor: pointer;
   color: #F0F1F4;
   padding: .25rem .75rem;
@@ -583,24 +583,24 @@ transform: translateX(.25rem);
   border-radius: .5rem;
 }
 
-.work-card{
+.article-card{
   background-color: #141B28;
   padding: 1rem;
   border-radius: 1rem;
 }
 
-.work-img{
+.article-img{
   border-radius: 1rem;
   margin-bottom: .75rem;
 }
 
-.work-title{
+.article-title{
   font-size: .938rem;
   font-weight: 500;
   margin-bottom: .25rem;
 }
 
-.work-button{
+.article-button{
   width: max-content;
   color: #A395E9;
   font-size: .813rem;
@@ -609,17 +609,17 @@ transform: translateX(.25rem);
   column-gap: .25rem;
 }
 
-.work-button:hover .work-icon{
+.article-button:hover .article-icon{
   transform: translateX(.25rem);
 }
 
-.work-icon{
+.article-icon{
   font-size: 1rem;
   transition: .4s;
 }
 
-/* Active item work*/
-.active-work{
+/* Active item article*/
+.active-article{
   background-color: #A395E9;
   color: #0A111E;
 
@@ -813,10 +813,10 @@ transform: translateX(.25rem);
     grid-template-columns: 145px;
     justify-content: center;
   }
-  .work-item{
+  .article-item{
     font-size: .875rem;
   }
-  .work-filter{
+  .article-filter{
     column-gap: .25rem;
 
   }
@@ -854,10 +854,10 @@ transform: translateX(.25rem);
   .service-modal-description{
     padding: 0 3.5rem;
   }
-  .work-container{
+  .article-container{
     justify-content: center;
   }
-  .work-img{
+  .article-img{
     width: 295px;
   }
   .contact-info{
@@ -871,7 +871,7 @@ transform: translateX(.25rem);
 }
 
 @media screen and (min-width: 767px){
-  .work-container{
+  .article-container{
     grid-template-columns: repeat(2, max-content);
   }
   .contact-container{
@@ -946,16 +946,16 @@ transform: translateX(.25rem);
   .service-card{
     padding: 5rem 2rem 1.5rem;
   }
-  .work-container{
+  .article-container{
     gap: 3rem;
   }
-  .work-card{
+  .article-card{
     padding: 1.25rem;
   }
-  .work-img{
+  .article-img{
     margin-bottom: 1rem;
   }
-  .work-title{
+  .article-title{
     margin-bottom: .5rem;
   }
   .contact-container{
