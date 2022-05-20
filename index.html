@@ -45,7 +45,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a href="#work" class="nav-link ">
+                            <a href="#article" class="nav-link ">
                                 <i class='bx bx-briefcase-alt-2' ></i>
                             </a>
                         </li>
@@ -285,7 +285,7 @@
                 </div>
             </section>
 
-            <!--=============== Articel ===============-->
+            <!--=============== ARTICLE ===============-->
             <section class="article section" id="article">
                 <span class="section-subtitle">My Papers</span>
                 <h2 class="section-title">Article</h2>
@@ -297,14 +297,15 @@
                     <span class="article-item " data-filter=".design">Education</span>    
                 </div>
 
-                <div class="article-container container grid">
+                <div class="article-container container grid" v-for="">
                     <div class="article-card mix web">
                         <img src="assets/img/work1.jpg" alt="" class="article-img">
 
-                        <h3 class="article-title">Web Design</h3>
+                        <h3 class="article-title">{{ data.title}}</h3>
+                        <p>{{data.author}}</p>
 
-                        <a href="#" class="article-button">
-                            Demo <i class='bx bx-right-arrow-alt article-icon'></i>
+                        <a href="'./hub.html?markdown=' + data.markdown" class="article-button">
+                            See More <i class='bx bx-right-arrow-alt article-icon'></i>
                         </a>
                     </div>
 
@@ -314,7 +315,7 @@
                         <h3 class="article-title">Web Design</h3>
 
                         <a href="#contact" class="article-button">
-                            Demo <i class='bx bx-right-arrow-alt article-icon'></i>
+                            See More <i class='bx bx-right-arrow-alt article-icon'></i>
                         </a>
                     </div>
 
@@ -496,5 +497,8 @@
 
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
+        <script src="assets/js/data.js"></script>
     </body>
 </html>
