@@ -26,7 +26,7 @@ Vue.createApp({
           var converter = new showdown.Converter();
           axios
             .get(
-              src="../assets/article/"+article
+              src="../assets/article/article1.md"+article
             )
             .then((res) => {           
               var html = converter.makeHtml(res.data);           
