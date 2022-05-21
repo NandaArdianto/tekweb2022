@@ -1,27 +1,44 @@
-let app = Vue.createApp({
+Vue.createApp({
     data() {
-        return {
-            articles: {},
-            markdown: null
-        }
+      return {
+        article: [],
+        judul:"article",
+        article:""
+      };
     },
     methods: {
-        getArticleData() {
-            axios
-                .get(
-                    "https://raw.githubusercontent.com/NandaArdianto/tekweb2022/assets/json/data.json"
-                )
-                .then((res) => {
-                    this.articles = res.data;
-                    console.log(res.data);
-                })
-                .catch((error) => {
-                    console.log(error);
-                });
-        }
+      getArtikel() {
+        axios
+          .get(
+            src="https://raw.githubusercontent.com/NandaArdianto/tekweb2022/main/assets/json/data.json")
+          .then((res) => {
+            console.log(res.data); //melihat respon data pada console browser
+            this.article = res.data; //memperbarui variabel header pada bagian data()
+          })
+          .catch((error) => {
+            console.log(error); //melihat error jika pengambilan data adalah gagal
+          });
+      },
+      ambiljudul(){
+        const queryString = window.location.search;
+          const urlParams = new URLSearchParams(queryString);
+          const article = urlParams.get('article');        
+          var converter = new showdown.Converter();
+          axios
+            .get(
+              src="../assets/article/"+article
+            )
+            .then((res) => {           
+              var html = converter.makeHtml(res.data);           
+              this.article = html;
+            })
+            .catch((error) => {
+              console.log(error);
+            });
+      }
     },
     beforeMount() {
-        this.getArticleData()
-    }
-})
-app.mount('#app');
+      this.getarticle(); //eksekusi fungsi getHeaderData() pada bagian methods saat halaman terbuka
+      this.ambiljudul();
+    },
+  }).mount("#app");

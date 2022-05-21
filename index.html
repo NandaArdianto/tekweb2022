@@ -297,14 +297,13 @@
                     <span class="article-item " data-filter=".design">Education</span>    
                 </div>
 
-                <div class="article-container container grid" v-for="">
+                <div class="article-container container grid" v-for="data in article">
                     <div class="article-card mix web">
                         <img src="assets/img/work1.jpg" alt="" class="article-img">
 
-                        <h3 class="article-title">{{ data.title}}</h3>
-                        <p>{{data.author}}</p>
+                        <h3 class="article-title">Sekolah Dasar Indonesia</h3>
 
-                        <a href="'./hub.html?markdown=' + data.markdown" class="article-button">
+                        <a href="'./assets/menu/baca.html?article='+data.article" class="article-button">
                             See More <i class='bx bx-right-arrow-alt article-icon'></i>
                         </a>
                     </div>
@@ -499,6 +498,9 @@
         <script src="assets/js/main.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
+        <script src="assets/json/data.json"></script>
         <script src="assets/js/data.js"></script>
+        <script src="assets/js/main.js"></script>
+        
     </body>
 </html>

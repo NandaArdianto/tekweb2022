@@ -225,7 +225,12 @@ img {
 }
 
 /* Active link */
-
+.book{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 1.5rem;
+}
 
 /* Change background header */
 .scroll-header{
