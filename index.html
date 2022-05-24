@@ -117,25 +117,25 @@
                     <div class="about-data">
                         <div class="about-info">
                             <div class="about-box">
-                                <i class="bx bx-award about-icon"></i>
+                                <i class="bx bxs-graduation about-icon"></i>
                                 <h3 class="about-title">Elementary School</h3>
                                 <span class="about-subtitle">SDN 1 WILOSO</span>
                             </div>
                         
                             <div class="about-box">
-                                <i class="bx bx-briefcase-alt-2 about-icon"></i>
+                                <i class="bx bxs-graduation about-icon"></i>
                                 <h3 class="about-title">Junior High School</h3>
                                 <span class="about-subtitle">SMPN 1 PANGGANG</span>
                             </div>
 
                             <div class="about-box">
-                                <i class="bx bx-support about-icon"></i>
+                                <i class="bx bxs-graduation about-icon"></i>
                                 <h3 class="about-title">Senior High School</h3>
                                 <span class="about-subtitle">SMKN 1 SAPTOSARI</span>
                             </div>
 
                             <div class="about-box">
-                                <i class="bx bx-support about-icon"></i>
+                                <i class="bx bxs-graduation about-icon"></i>
                                 <h3 class="about-title">College</h3>
                                 <span class="about-subtitle">UNIVERSITAS AHMAD DAHLAN</span>
                             </div>
@@ -286,62 +286,64 @@
             </section>
 
             <!--=============== ARTICLE ===============-->
-            <section class="article section" id="article">
+            <section class="article section app" id="article">
                 <span class="section-subtitle">My Papers</span>
-                <h2 class="section-title">Article</h2>
+                <h2 class="section-title">My Article</h2>
 
                 <div class="article-filter">
                     <span class="article-item active-article " data-filter="all">All</span>
-                    <span class="article-item " data-filter=".web">Education</span>
-                    <span class="article-item " data-filter=".movil">Technology</span>
-                    <span class="article-item " data-filter=".design">Healthy</span>    
+                    <span class="article-item " data-filter=".edu">Education</span>
+                    <span class="article-item " data-filter=".tec">Technology</span>
+                    <span class="article-item " data-filter=".hel">Healthy</span>    
                 </div>
 
                 <div class="article-container container grid" v-for="data in article">
-                    <div class="article-card mix web">
+                    <div class="article-card mix edu">
                         <img src="assets/img/art1.jpg" alt="" class="article-img">
 
                         <h3 class="article-title">Sekolah Dasar</h3>
+                        <p>{{data.subtitle}}</p>
 
                         <a href="'./baca.html?article='+data.article" class="article-button">
                             See More <i class='bx bx-right-arrow-alt article-icon'></i>
                         </a>
                     </div>
 
-                    <div class="article-card mix movil">
-                        <img src="assets/img/work2.jpg" alt="" class="article-img">
+                    <div class="article-card mix tec">
+                        <img src="assets/img/meta.jpg" alt="" class="article-img">
 
-                        <h3 class="article-title">Web Design</h3>
-
-                        <a href="#contact" class="article-button">
+                        <h3 class="article-title">Metaverse</h3>
+                        <p>{{data.subtitle}}</p>
+                        <a href="#" class="article-button">
                             See More <i class='bx bx-right-arrow-alt article-icon'></i>
                         </a>
                     </div>
 
-                    <div class="article-card mix design">
-                        <img src="assets/img/work3.jpg" alt="" class="article-img">
+                    <div class="article-card mix hel">
+                        <img src="assets/img/cvd 19.jpg" alt="" class="article-img">
 
-                        <h3 class="article-title">Web design</h3>
-
-                        <a href="#" class="article-button">
-                            Demo <i class='bx bx-right-arrow-alt article-icon'></i>
-                        </a>
-                    </div>
-
-                    <div class="article-card mix web">
-                        <img src="assets/img/work4.jpg" alt="" class="article-img">
-
-                        <h3 class="article-title">Web Design</h3>
+                        <h3 class="article-title">Covid 19</h3>
+                        <h5 class="article"></h5>
 
                         <a href="#" class="article-button">
                             Demo <i class='bx bx-right-arrow-alt article-icon'></i>
                         </a>
                     </div>
 
-                    <div class="article-card mix movil">
-                        <img src="assets/img/work5.jpg" alt="" class="article-img">
+                    <div class="article-card mix edu">
+                        <img src="assets/img/tk.jpg" alt="" class="article-img">
 
-                        <h3 class="article-title">Web Design</h3>
+                        <h3 class="article-title">Taman anak anak</h3>
+
+                        <a href="#" class="article-button">
+                            Demo <i class='bx bx-right-arrow-alt article-icon'></i>
+                        </a>
+                    </div>
+
+                    <div class="article-card mix hel">
+                        <img src="assets/img/hptt.jpg" alt="" class="article-img">
+
+                        <h3 class="article-title">Hepatitis</h3>
 
                         <a href="#" class="article-button">
                             Demo <i class='bx bx-right-arrow-alt article-icon'></i>

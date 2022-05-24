@@ -1,28 +1,3 @@
-/*=============== CHANGE BACKGROUND HEADER ===============*/
-
-/*=============== SERVICES MODAL ===============*/
-const modalview = document.querySelectorAll('.service-modal'),
-      modalbtns = document.querySelectorAll('.service-button'),
-      modalclose = document.querySelectorAll('.service-modal-close')
-
-let modal = function(modalclick){
-    modalview[modalclick].classList.add('active-modal')
-}
-
-modalbtns.forEach((mb, i) =>{
-    mb.addEventListener('click', () =>{
-        modal(i)
-    })
-})
-
-modalclose.forEach((mc) =>{
-    mc.addEventListener('click', () =>{
-        modalview.forEach((mv) =>{
-            mv.classList.remove('active-modal')
-        })
-    })
-})
-
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
 var mixer = mixitup('.article-container', {
     selectors: {
@@ -66,7 +41,6 @@ function scrollactive(){
 window.addEventListener('scroll', scrollactive)
 
 
-/*=============== LIGHT DARK THEME ===============*/ 
 
 
 
