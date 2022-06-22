@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Personal Portfolio Template</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Template css Files -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="../css/style.css" type="text/css">
+  <link rel="stylesheet" href="../css/pink.css" type="text/css">
+  <link rel="stylesheet" href="../css/css.css" type="text/css">
+</head>
+
+<body>
+  <!--Main Container -->
+ <div class="main-container">
+    <!--Aside-->
+    <div class="aside">
+      <!--Logo-->
+      <div class="logo">
+        <a href="../../index.html">Nanda</a>
+      </div>
+      <!--Nav Togler Btn-->
+      <div class="nav-toggler">
+        <span></span>
+      </div>
+      <!--Nav-->
+      <ul class="nav">
+        <li><a href="../../index.html"><i class="bx bx-grid-alt"></i> Home</a></li>
+        <li><a href="about.html"><i class="bx bx-user"></i> About</a></li>
+        <li><a href="skills.html"><i class="bx bx-briefcase-alt-2"></i> Skills</a></li>
+        <li><a href="article.html" class="active"><i class="bx bx-book-content"></i> Article</a></li>
+        <li><a href="contact.html" ><i class="bx bx-phone-call"></i> Contact</a></li>
+      </ul>
+      <!--Copyright-->
+      <div class="copyright-text">
+        &copy;Nanda Ardianto
+      </div>
+    </div>
+    <!--Aside End-->
+
+    <!--Main Content-->
+    <div class="main-content">
+      <!--Article section-->
+        <section class="about active section">
+         <div class="container">
+           <div class="row">
+              <div class="section-title padd-15">
+                <h2>Article</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="row padd-15">
+            <div class="row" id="app">
+                <div class="col-md-4" v-for="item in articles">
+                    <div class="card font-source mb-4 box-shadow bg-light shadow-lg">
+                      <img class="card-img-top" src="" v-bind:src="item.image" alt="gambar artikel" style="width: 100%; height: 225px;">
+                        <div class="card-body">
+                            <p class="card-text">{{item.deskripsi}}</p>
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-gradient">
+                                    <a :href="'./read.html?article='+item.link" class="text-decoration-none" role="button">Read More</a>
+                                </button>
+                            </div>
+                            <small class="text-muted float-end">{{item.tanggal}}</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </section>
+      <!--Article section end-->
+    </div>
+    <!--Main Content End-->
+    
+  </div>
+  <!--Main Container End-->
+  
+</div>
+  <!--Switch-->
+    <div class="style-switch">
+      <div class="day-night s-icon">
+        <i class="bx"></i>
+      </div>
+    </div>
+
+    <!--Switch End-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="js/script1.js"></script>
+    <script src="js/swtich.js"></script>
+</body>
+</html>
+
