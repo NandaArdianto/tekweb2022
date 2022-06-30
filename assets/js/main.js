@@ -11,8 +11,6 @@ Vue.createApp({
                 "name": "I'm Nanda Ardianto",
                 "job" : "Web Developer",
                 "me" : "Nanda Ardianto Lahir di Gunungkidul, Yogyakarta",
-
-                "linetext" : "SD"
             },
             articles: [],
             article: null,
