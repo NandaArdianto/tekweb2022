@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="../css/css.css" type="text/css">
 </head>
 
-<body>
+<body id="app">
   <!--Main Container -->
   <div class="main-container">
     <!--Aside-->
@@ -45,17 +45,15 @@
        <div class="container">
         <div class="row">
           <div class="section-title padd-15">
-              <h2>About Me</h2>
+              <h2>{{about.title}}</h2>
           </div>
         </div>
         <div class="row">
           <div class="about-content padd-15">
             <div class="row">
               <div class="about-text padd-15">
-                <h3>I'm Nanda Ardianto <span> Web Developer</span></h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Optio expedita quaerat ad sed veritatis unde tempore maxime.Aut eveniet omnis
-                  voluptates eaque officia? Quis veritatis numquam nulla fuga accusantium tempora?</p>
+                <h3>{{about.name}} <span> {{about.job}}</span></h3>
+                <p>{{about.me}}</p>
               </div>
             </div>
             <div class="row">
@@ -202,9 +200,14 @@
     </div>
 
    <!--Switch End-->
+   <script src="https://unpkg.com/vue@3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="../js/main.js"></script>
     <script src="../js/swtich.js"></script>
     <script src="../js/script1.js"></script>
+    
     
 </body>
 </html>

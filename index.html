@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="assets/css/css.css" type="text/css">
 </head>
 
-<body>
+<body id="app">
   <!--Main Container -->
   <div class="main-container">
     <!--Aside-->
@@ -45,16 +45,14 @@
         <div class="container">
           <div class="row">
             <div class="home-info padd-15">
-              <h3 class="hello">Hello... <span class="name"></span></h3>
-              <h3 class="my-profession">I'm a <span class="typing"> </span></h3>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum beatae quas, 
-              perspiciatis soluta tempora officiis laborum impedit non vero possimus placeat,
-              laboriosam sed voluptates aperiam iste! Cum fuga alias harum.</p>
+              <h3 class="hello">{{index.hai}} <span class="name"></span></h3>
+              <h3 class="my-profession">{{index.about}}<span class="typing"> </span></h3>
+              <p>{{index.desc}}</p>
              
               <a href="assets/menu/about.html" class="btn hire-me">About Me</a>
             </div>
             <div class="home-img">
-              <img src="assets/images/profil.JPG" alt="">
+              <img src="assets/images/profil.JPG" alt="Photo Profil">
             </div>
           </div>
         </div>
@@ -73,9 +71,14 @@
     </div>
 
     <!--Switch End-->
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
-    <script src="assets/js/script.js"></script>
+    
     <script src="assets/js/swtich.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
 
