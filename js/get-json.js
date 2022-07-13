@@ -2,15 +2,15 @@ Vue.createApp({
     data() {
       return {
         message: "Hello Vue!",
-        artikel: [],
-        article: null,
+        article: [],
+        artikel: null,
       };
     },
     methods: {
       getArticle()
       {
         axios
-          .get("")
+          .get("https://raw.githubusercontent.com/NandaArdianto/tekweb2022/main/article/data.json")
           .then((res) => {
             console.log(res.data);
             this.artikel = res.data;
@@ -27,7 +27,7 @@ Vue.createApp({
         var converter = new showdown.Converter();
         axios
           .get(
-            ""+article
+            "https://raw.githubusercontent.com/NandaArdianto/tekweb2022/main/article/"+article
           )
           .then((res) => {           
             var html = converter.makeHtml(res.data);           
@@ -42,4 +42,4 @@ Vue.createApp({
       this.getArticle(),
       this.getMarkdownData()
     },
-  }).mount("#app");
+  }).mount("#article");
