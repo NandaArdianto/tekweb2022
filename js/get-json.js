@@ -3,7 +3,7 @@ Vue.createApp({
       return {
         message: "Hello Vue!",
         article: [],
-        artikel: null,
+        artikel: null  ,
       };
     },
     methods: {

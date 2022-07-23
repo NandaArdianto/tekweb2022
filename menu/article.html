@@ -51,16 +51,16 @@
             </div>
           </div>
 
-          <div class="row padd-15">
+          <div class="row padd-15>
             <div class="row" id="article">
-                <div class="col-md-4" v-for="item in articles">
+                <div class="col-md-4 padd-15" v-for="item in articles">
                     <div class="card font-source mb-4 box-shadow bg-light shadow-lg">
                       <img class="card-img-top" src="" v-bind:src="item.image" alt="gambar artikel" style="width: 100%; height: 225px;">
-                        <div class="card-body">
-                            <p class="card-text">{{item.deskripsi}}</p>
+                        <div class="card-body padd-15">
+                            <p class="card-text">{{data.title}}</p>
                             <div class="btn-group">
                                 <button type="button" class="btn btn-sm btn-gradient">
-                                    <a target="_blank" href="'./baca.html?article='+item.link" class="text-decoration-none" role="button">Read More</a>
+                                    <a target="_blank" href="'./baca.html?article='+data.link" class="text-decoration-none" role="button">Read More</a>
                                 </button>
                             </div>
                             <small class="text-muted float-end">{{item.tanggal}}</small>
@@ -90,7 +90,7 @@
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
-    <script src="../js/get-json.js"></script>
+    <script src="../article/data.json"></script>
     <script src="../js/main.js"></script>
     <script src="../js/script1.js"></script>
     <script src="../js/swtich.js"></script>
