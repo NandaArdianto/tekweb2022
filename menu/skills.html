@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="../css/css.css" type="text/css">
 </head>
 
-<body>
+<body id="app">
   <!--Main Container -->
   <div class="main-container">
     <!--Aside-->
@@ -33,7 +33,7 @@
       </ul>
       <!--Copyright-->
       <div class="copyright-text">
-        &copy;Nanda Ardianto
+        &copy;{{footer.title}}
       </div>
     </div>
     <!--Aside End-->
@@ -45,14 +45,14 @@
         <div class="container">
            <div class="row">
              <div class="section-title padd-15">
-                 <h2>My Skills</h2>
+                 <h2>{{skill.title}}</h2>
             </div>
           </div>
 
           <div class="row">
             <!-- FRONTEND -->
             <div class="front padd-15">
-                <h3 class="title"> Front End Development</h3>
+                <h3 class="title"> {{skill.subtitle1}}</h3>
                 <div class="row">
                 <div class="line-box padd-15">
                   <div class="line shadow-dark">
@@ -62,11 +62,11 @@
                       <h3 class="line-date">
                         <i class="bx bxs-badge-check"></i>
                       </h3>
-                      <h4 class="line-title">HTML</h4>
-                      <p class="line-text"> Basic</p>
+                      <h4 class="line-title">{{skill.name1}}</h4>
+                      <p class="line-text"> {{skill.level1}}</p>
                         <div class="progress">
                           <div class="progress-in"></div>
-                          <div class="skills-persen">76%</div>
+                          <div class="skills-persen">{{skill.persen1}}</div>
                         </div>
                       </div>
                     <div class="line-item">
@@ -74,12 +74,12 @@
                       <h3 class="line-date">
                         <i class="bx bxs-badge-check"></i>
                       </h3>
-                      <h4 class="line-title">CSS</h4>
-                      <p class="line-text"> Basic</p>
+                      <h4 class="line-title">{{skill.name2}}</h4>
+                      <p class="line-text"> {{skill.level2}}</p>
 
                         <div class="progress">
                           <div class="progress-in"></div>
-                          <div class="skills-persen">76%</div>
+                          <div class="skills-persen">{{skill.persen2}}</div>
                         </div>
                       </div>
                     <div class="line-item">
@@ -87,12 +87,12 @@
                       <h3 class="line-date">
                         <i class="bx bxs-badge-check"></i>
                       </h3>
-                      <h4 class="line-title">Javascript</h4>
-                      <p class="line-text"> Basic</p>
+                      <h4 class="line-title">{{skill.name3}}</h4>
+                      <p class="line-text"> {{skill.level3}}</p>
 
                         <div class="progress">
                           <div class="progress-in"></div>
-                          <div class="skills-persen">76%</div>
+                          <div class="skills-persen">{{skill.persen3}}</div>
                         </div>
                       </div>
                     <div class="line-item">
@@ -100,12 +100,12 @@
                       <h3 class="line-date">
                         <i class="bx bxs-badge-check"></i>
                       </h3>
-                      <h4 class="line-title">Boostrap</h4>
-                      <p class="line-text"> Basic</p>
+                      <h4 class="line-title">{{skill.name4}}</h4>
+                      <p class="line-text"> {{skill.level4}}/p>
 
                         <div class="progress">
                           <div class="progress-in"></div>
-                          <div class="skills-persen">76%</div>
+                          <div class="skills-persen">{{skill.persen4}}</div>
                         </div>
                       </div>
                     <div class="line-item">
@@ -113,12 +113,12 @@
                       <h3 class="line-date">
                         <i class="bx bxs-badge-check"></i>
                       </h3>
-                      <h4 class="line-title">Boostrap</h4>
-                      <p class="line-text"> Basic</p>
+                      <h4 class="line-title">{{skill.name5}}</h4>
+                      <p class="line-text"> {{skill.level5}}</p>
 
                         <div class="progress">
                           <div class="progress-in"></div>
-                          <div class="skills-persen">76%</div>
+                          <div class="skills-persen">{{skill.persen5}}</div>
                         </div>
                       </div>
                     <div class="line-item">
@@ -126,25 +126,13 @@
                       <h3 class="line-date">
                         <i class="bx bxs-badge-check"></i>
                       </h3>
-                      <h4 class="line-title">Boostrap</h4>
-                      <p class="line-text"> Basic</p>
+                      <h4 class="line-title">{{skill.name6}}</h4>
+                      <p class="line-text"> {{skill.level6}}</p>
                     
                         <div class="progress">
                           <div class="progress-in"></div>
-                          <div class="skills-persen">76%</div>
+                          <div class="skills-persen">{{skill.persen6}}</div>
                         </div>
-                      </div>
-                    <div class="line-item">
-                      <div class="circle-dot"></div>
-                      <h3 class="line-date">
-                        <i class="bx bxs-badge-check"></i>
-                      </h3>
-                      <h4 class="line-title">Git</h4>
-                      <p class="line-text"> Basic</p>
-                        <div class="progress">
-                          <div class="progress-in"></div>
-                          <div class="skills-persen">76%</div>
-                        </div>  
                       </div>
                     <!--Time Line End-->
                   </div>
@@ -153,7 +141,7 @@
             </div>
             <!-- BACKEND -->
             <div class="backend padd-15">
-              <h3 class="title"> Back End Development</h3>
+              <h3 class="title"> {{skill.subtitle2}}</h3>
               <div class="row">
                 <div class="line-box padd-15">
                   <div class="line shadow-dark">
@@ -163,11 +151,11 @@
                       <h3 class="line-date">
                         <i class="bx bxs-badge-check"></i>
                       </h3>
-                      <h4 class="line-title">HTML</h4>
-                      <p class="line-text"> Basic</p>
+                      <h4 class="line-title">{{skill.name7}}</h4>
+                      <p class="line-text"> {{skill.level7}}</p>
                         <div class="progress">
                           <div class="progress-in"></div>
-                          <div class="skills-persen">76%</div>
+                          <div class="skills-persen">{{skill.persen7}}</div>
                         </div>
                       </div>
                     <div class="line-item">
@@ -175,12 +163,12 @@
                       <h3 class="line-date">
                         <i class="bx bxs-badge-check"></i>
                       </h3>
-                      <h4 class="line-title">CSS</h4>
-                      <p class="line-text"> Basic</p>
+                      <h4 class="line-title">{{skill.name8}}</h4>
+                      <p class="line-text"> {{skill.level8}}</p>
 
                         <div class="progress">
                           <div class="progress-in"></div>
-                          <div class="skills-persen">76%</div>
+                          <div class="skills-persen">{{skill.persen8}}</div>
                         </div>
                       </div>
                     <div class="line-item">
@@ -188,12 +176,12 @@
                       <h3 class="line-date">
                         <i class="bx bxs-badge-check"></i>
                       </h3>
-                      <h4 class="line-title">Javascript</h4>
-                      <p class="line-text"> Basic</p>
+                      <h4 class="line-title">{{skill.name9}}</h4>
+                      <p class="line-text"> {{skill.level9}}</p>
 
                         <div class="progress">
                           <div class="progress-in"></div>
-                          <div class="skills-persen">76%</div>
+                          <div class="skills-persen">{{skill.persen9}}</div>
                         </div>
                       </div>
                     <div class="line-item">
@@ -201,51 +189,13 @@
                       <h3 class="line-date">
                         <i class="bx bxs-badge-check"></i>
                       </h3>
-                      <h4 class="line-title">Boostrap</h4>
-                      <p class="line-text"> Basic</p>
+                      <h4 class="line-title">{{skill.name10}}</h4>
+                      <p class="line-text"> {{skill.level10}}</p>
 
                         <div class="progress">
                           <div class="progress-in"></div>
-                          <div class="skills-persen">76%</div>
+                          <div class="skills-persen">{{skill.persen10}}</div>
                         </div>
-                      </div>
-                    <div class="line-item">
-                      <div class="circle-dot"></div>
-                      <h3 class="line-date">
-                        <i class="bx bxs-badge-check"></i>
-                      </h3>
-                      <h4 class="line-title">Boostrap</h4>
-                      <p class="line-text"> Basic</p>
-
-                        <div class="progress">
-                          <div class="progress-in"></div>
-                          <div class="skills-persen">76%</div>
-                        </div>
-                      </div>
-                    <div class="line-item">
-                      <div class="circle-dot"></div>
-                      <h3 class="line-date">
-                        <i class="bx bxs-badge-check"></i>
-                      </h3>
-                      <h4 class="line-title">Boostrap</h4>
-                      <p class="line-text"> Basic</p>
-                    
-                        <div class="progress">
-                          <div class="progress-in"></div>
-                          <div class="skills-persen">76%</div>
-                        </div>
-                      </div>
-                    <div class="line-item">
-                      <div class="circle-dot"></div>
-                      <h3 class="line-date">
-                        <i class="bx bxs-badge-check"></i>
-                      </h3>
-                      <h4 class="line-title">Git</h4>
-                      <p class="line-text"> Basic</p>
-                        <div class="progress">
-                          <div class="progress-in"></div>
-                          <div class="skills-persen">76%</div>
-                        </div>  
                       </div>
                     <!--Time Line End-->
                   </div>
@@ -273,6 +223,7 @@
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="../js/main.js"></script>
     <script src="../js/swtich.js"></script>
     <script src="../js/script1.js"></script>
     
