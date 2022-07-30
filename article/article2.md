@@ -1,5 +1,5 @@
 # Berjalan Perlahan
-
+---
 ###### Sabtu, 14 Mei 2022
 
 ### |
@@ -7,7 +7,7 @@
 _Oleh Nanda Ardianto_
 
 ---
-
+<br>
 Untukmu yang pernah datang dan mengubah segala rencana,
 <br>
 yang pernah menghentikan segala gundah gulana.
