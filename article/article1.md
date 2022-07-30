@@ -1,8 +1,5 @@
-Menganalisis Proses Bisnis diKopi Luwak Mataram
+# Menganalisis Proses Bisnis diKopi Luwak Mataram
 
----
-
-Oleh Fiandra Badhia,Mahasiswa UAD_
 
 a.Analisa terhadap bisnis juga bermanfaat untuk meningkatkan keuntungan dan membantu
 tercapainya tujuan dari usaha tersebut. Selain itu bisa digunakan untuk mengenal lebih dalam 
