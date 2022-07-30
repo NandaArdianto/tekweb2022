@@ -9,15 +9,5 @@ _Oleh Nanda Ardianto_
 ---
 
 <br>
-Untukmu yang pernah datang dan mengubah segala rencana,
-<br>
-yang pernah menghentikan segala gundah gulana.
-<br>
-Untukmu yang pernah menjadikan hariku berwarna dan membuatku kembali percaya pada renjana, 
-<br>
-maaf atas segala hal kecil yang membuatmu marah atas niat baikku yang selalu kau pandang salah.
-<br>
-Kita saling berjalan perlahan, melengkapi dan saling berjuang.
-<br>
-Hingga tanpa kita sadari kisah kita hangus jadi arang dan kita tidak lagi punya jalan pulang.
-<br>
+Koin micin atau shitcoin adalah crypto yang berkapitalisasi pasar sangat rendah namun suplai tokennya sangat besar dan harganya sangat murah layaknya membeli micin. Umumnya ini adalah koin yang baru dirilis dan seringkali tidak memiliki tujuan.
+Ingat koin tersebut masih baru atau baru listing, maka tingkat scam atau penipuannya sangat tinggi,

@@ -8,15 +8,6 @@ _Oleh Nanda Ardianto, Mahasiswa_
 
 ---
 <br>
-Untukmu yang pernah datang dan mengubah segala rencana,
-<br>
-yang pernah menghentikan segala gundah gulana.
-<br>
-Untukmu yang pernah menjadikan hariku berwarna dan membuatku kembali percaya pada renjana, 
-<br>
-maaf atas segala hal kecil yang membuatmu marah atas niat baikku yang selalu kau pandang salah.
-<br>
-Kita saling berjalan perlahan, melengkapi dan saling berjuang.
-<br>
-Hingga tanpa kita sadari kisah kita hangus jadi arang dan kita tidak lagi punya jalan pulang.
-<br>
+Sekolah Dasar adalah salah satu jenjang dalam dunia pendidikan di Indonesia. Dengan rentang usia 7-13 tahun,
+usia tersebut adalah usia yang sangat bagus untuk menanamkan karakter bagi anak tesebut, sehingga akan berguna
+dikemudian hari.
