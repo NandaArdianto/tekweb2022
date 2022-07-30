@@ -2,7 +2,7 @@
     {
         "id":"1",
         "judul":"Menganalisis Proses Bisnis diKopi Luwak Mataram",
-        "img":"./img/sd.jpg",
+        "img":"../img/sd.jpg",
         "Oleh":"Nanda Ardianto",
         "desc":"Ini adalah suatu review tentang sebuah tempat yang saya analisis Proses bisnisnya.",
         "artikel":"article1.md"
