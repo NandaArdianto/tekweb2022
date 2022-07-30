@@ -2,12 +2,13 @@ Vue.createApp({
 	data() {
 		return {
 			artikel: [],
+            article: null,
 			
 	methods: {
 		getArticle() {
 			axios
 				.get(
-					"https://raw.githubusercontent.com/fiandra99/tekweb2022/master/artikel/artikel.json"
+					"https://raw.githubusercontent.com/NandaArdianto/tekweb2022/main/artikel/article.json"
 				)
 				.then((res) => {
 					console.log(res.data); //melihat respon data pada console browser
@@ -25,7 +26,7 @@ Vue.createApp({
 			console.log(article);
 			axios
 				.get(
-					"https://raw.githubusercontent.com/fiandra99/tekweb2022/master/artikel/" + article
+					"https://raw.githubusercontent.com/NandaArdianto/tekweb2022/main/artikel/" + article
 				)
 				.then((res) => {
 					var html = converter.makeHtml(res.data);
@@ -41,4 +42,4 @@ Vue.createApp({
 		this.getArticle(),
 		this.getDataMarkdown()
 	},
-}).mount("#app");
+}).mount("#article");
