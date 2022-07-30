@@ -9,8 +9,16 @@
     },
     {
         "id":"2",
-        "judul":"Menganalisis Proses Bisnis diKopi Luwak Mataram",
-        "img":"../img/tk.jpg",
+        "judul":"Koin Micin",
+        "img":"../img/koin.jpeg",
+        "Oleh":"Nanda Ardianto",
+        "desc":"Ini adalah suatu review tentang sebuah tempat yang saya analisis Proses bisnisnya.",
+        "article":"article2.md"
+    },
+    {
+        "id":"3",
+        "judul":"Sampah",
+        "img":"../img/sampah.jpg",
         "Oleh":"Nanda Ardianto",
         "desc":"Ini adalah suatu review tentang sebuah tempat yang saya analisis Proses bisnisnya.",
         "article":"article2.md"
