@@ -1,10 +1,10 @@
-# Berjalan Perlahan
+# Sekolah Dasar
 
-###### Sabtu, 14 Mei 2022
+###### Sabtu, 25 Juni 2022
 
 ### |
 
-_Oleh Nanda Ardianto, Mahasiswa_
+_Oleh Nanda Ardianto_
 
 ---
 <br>

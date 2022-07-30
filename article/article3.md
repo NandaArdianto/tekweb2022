@@ -1,6 +1,6 @@
 # Sampah
 ---
-###### Sabtu, 23 Juli 2022
+###### Sabtu, 02 Juli 2022
 
 ### |
 
