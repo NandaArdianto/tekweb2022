@@ -1,15 +1,22 @@
-# Menganalisis Proses Bisnis diKopi Luwak Mataram
+# Berjalan Perlahan
 
----
 ###### Sabtu, 14 Mei 2022
 
+### |
+
+_Oleh Habib Aditiya, Mahasiswa Universitas Ahmad Dahlan Yogyakarta_
+
+---
+
+Untukmu yang pernah datang dan mengubah segala rencana,
 <br>
+yang pernah menghentikan segala gundah gulana.
 <br>
-Analisa terhadap bisnis juga bermanfaat untuk meningkatkan keuntungan dan membantu
-tercapainya tujuan dari usaha tersebut. Selain itu bisa digunakan untuk mengenal lebih dalam 
-bisnis dari beberapa sisi. Oleh sebab itu analisis dilakukan terhadap semua faktor baik internal 
-maupun eksternal.
-fungsi organisasi bagi sebuah bisnis adalah dapat memudahkan Anda dalam mem-break down 
-pekerjaan yang dilakukan dalam rencana kegiatan, dan organisasi tersebut akan di kelompokan 
-menjadi satu grup sesuai dengan masing-masing jabatannya
-Contohnya seperti
+Untukmu yang pernah menjadikan hariku berwarna dan membuatku kembali percaya pada renjana, 
+<br>
+maaf atas segala hal kecil yang membuatmu marah atas niat baikku yang selalu kau pandang salah.
+<br>
+Kita saling berjalan perlahan, melengkapi dan saling berjuang.
+<br>
+Hingga tanpa kita sadari kisah kita hangus jadi arang dan kita tidak lagi punya jalan pulang.
+<br>

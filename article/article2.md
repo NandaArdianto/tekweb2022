@@ -1,6 +1,22 @@
-# Keunikan Burung Elang
----
-<br>
-Selain penglihatannya yang sangat tajam yang mampu melihat mangsa dari ketinggian, elang juga mempunyai kecepatan terbang yang sangat hebat. Elang mampu mencapai kecepatan hingga 300 km/jam saat berburu mangsanya. Bahkan, saat musim migrasi tiba, elang dapat berpindah ke berbagai belahan dunia.
+# Berjalan Perlahan
 
-Selain penglihatannya yang sangat tajam yang mampu melihat mangsa dari ketinggian, elang juga mempunyai kecepatan terbang yang sangat hebat. Elang mampu mencapai kecepatan hingga 300 km/jam saat berburu mangsanya. Bahkan, saat musim migrasi tiba, elang dapat berpindah ke berbagai belahan dunia
+###### Sabtu, 14 Mei 2022
+
+### |
+
+_Oleh Nanda Ardianto_
+
+---
+
+Untukmu yang pernah datang dan mengubah segala rencana,
+<br>
+yang pernah menghentikan segala gundah gulana.
+<br>
+Untukmu yang pernah menjadikan hariku berwarna dan membuatku kembali percaya pada renjana, 
+<br>
+maaf atas segala hal kecil yang membuatmu marah atas niat baikku yang selalu kau pandang salah.
+<br>
+Kita saling berjalan perlahan, melengkapi dan saling berjuang.
+<br>
+Hingga tanpa kita sadari kisah kita hangus jadi arang dan kita tidak lagi punya jalan pulang.
+<br>
