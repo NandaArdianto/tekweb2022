@@ -12,7 +12,7 @@
         "judul":"Koin Micin",
         "img":"../img/koin.jpeg",
         "Oleh":"Nanda Ardianto",
-        "desc":"Ini adalah suatu review tentang sebuah tempat yang saya analisis Proses bisnisnya.",
+        "desc":"Apa itu Koin Micin?",
         "article":"article2.md"
     },
     {
@@ -20,7 +20,7 @@
         "judul":"Sampah",
         "img":"../img/sampah.jpg",
         "Oleh":"Nanda Ardianto",
-        "desc":"Ini adalah suatu review tentang sebuah tempat yang saya analisis Proses bisnisnya.",
+        "desc":"Sampah yang tidak dipandang sebelah mata.",
         "article":"article2.md"
     }
 ]
