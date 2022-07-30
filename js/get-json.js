@@ -2,7 +2,6 @@ Vue.createApp({
 	data() {
 		return {
 			artikel: [],
-			judul_artikel: "Artikel",
 			article: null,
 
 			}

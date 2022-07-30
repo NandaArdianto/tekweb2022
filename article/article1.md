@@ -4,7 +4,7 @@
 
 _Oleh Fiandra Badhia,Mahasiswa UAD_
 
-1. a.Analisa terhadap bisnis juga bermanfaat untuk meningkatkan keuntungan dan membantu 
+a.Analisa terhadap bisnis juga bermanfaat untuk meningkatkan keuntungan dan membantu
 tercapainya tujuan dari usaha tersebut. Selain itu bisa digunakan untuk mengenal lebih dalam 
 bisnis dari beberapa sisi. Oleh sebab itu analisis dilakukan terhadap semua faktor baik internal 
 maupun eksternal.

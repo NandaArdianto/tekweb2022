@@ -40,7 +40,7 @@
     <!--Aside End-->
 
     <!--Main Content-->
-    <div class="main-content">
+    <div class="main-content" id="article">
       <!--Article section-->
         <section class="about active section">
          <div class="container">
@@ -51,7 +51,7 @@
             </div>
           </div>
 
-          <section id="artikel">
+          <section id="article">
             <div class="container">
               <div class="row">
                 <div v-for="data in artikel"class="col-md-4">
@@ -60,9 +60,9 @@
                       alt="...">
                     <div class="card-body">
                       <h5 class="card-title">{{data.judul}}</h5>
-                      <p class="text-muted author">Oleh: {{data.oleh}}</p>
+                      <p class="text-muted author">Oleh: {{data.Oleh}}</p>
                       <p class="card-text text-dark">{{data.desc}}</p>
-                      <a :href="'./baca.html?article='+data.artikel" class="btn btn-dark" type="button">Read</a>
+                      <a :href="'./baca.html?article='+data.article" class="btn btn-dark" type="button">Read</a>
                     </div>
                   </div>
                 </div>
@@ -92,6 +92,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     <script src="../js/get-json.js"></script>
+    <script src="../js/swtich.js"></script>
     <script src="../js/main.js"></script>
     
     
