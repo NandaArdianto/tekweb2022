@@ -4,7 +4,7 @@
 
 ### |
 
-_Oleh Habib Aditiya, Mahasiswa Universitas Ahmad Dahlan Yogyakarta_
+_Oleh Nanda Ardianto, Mahasiswa_
 
 ---
 <br>
