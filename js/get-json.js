@@ -2,8 +2,11 @@ Vue.createApp({
 	data() {
 		return {
 			artikel: [],
-            article: null,
-			
+			judul_artikel: "Artikel",
+			article: null,
+
+		};
+	},
 	methods: {
 		getArticle() {
 			axios
