@@ -60,6 +60,9 @@ body{
 h1{
     color: #302e4d;
 }
+h6{
+    color: #302e4d;
+}
 .section .active{
     z-index: 2;
     opacity: 1;
