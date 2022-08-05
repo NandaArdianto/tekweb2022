@@ -93,7 +93,8 @@ Vue.createApp({
                 "no" : "+62 812-8064-1757",
                 "email" : "Email",
                 "mail" : "nanda.ardianto21@gmail.com",
-                "tele" : "Telegram",
+                "git" : "Github",
+                "git_name":"NandaArdianto",
                 "ig" : "Instagram",
                 "name" : "nanda.ardianto_"
             },
