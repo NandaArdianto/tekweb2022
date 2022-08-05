@@ -1,4 +1,4 @@
-
+```c
 # User
 
 ## Menampilkan data user
@@ -101,7 +101,8 @@ response:
 GET: /article/[id]
 
 response:
-{    
+{
+      
         "id"            : "",
         "judul"         : "",
         "img_url"       : "",
