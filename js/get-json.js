@@ -1,3 +1,5 @@
+let apiUrl = "https://myapi.nardian.my.id/index.php/";
+
 Vue.createApp({
 	data() {
 		return {
@@ -9,9 +11,7 @@ Vue.createApp({
 	methods: {
 		getArticle() {
 			axios
-				.get(
-					"https://raw.githubusercontent.com/NandaArdianto/tekweb2022/main/article/article.json"
-				)
+				.get(apiUrl+"users/1")
 				.then((res) => {
 					console.log(res.data); //melihat respon data pada console browser
 					this.artikel = res.data; //memperbarui variabel article pada bagian data()
