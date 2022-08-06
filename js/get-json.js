@@ -11,7 +11,7 @@ Vue.createApp({
 	methods: {
 		getArticle() {
 			axios
-				.get(apiUrl+"users/1")
+				.get(apiUrl+"articles/1")
 				.then((res) => {
 					console.log(res.data); //melihat respon data pada console browser
 					this.artikel = res.data; //memperbarui variabel article pada bagian data()
